@@ -29,5 +29,4 @@ resource stg 'Microsoft.Storage/storageAccounts@2023-04-01' = {
     supportsHttpsTrafficOnly: true
   }
 }
-
 output storageEndpoint object = stg.properties.primaryEndpoints
